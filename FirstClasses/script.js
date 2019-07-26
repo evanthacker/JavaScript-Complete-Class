@@ -1,3 +1,5 @@
+/* Reviewing Variables */
+
 var firstName = 'John';
 
 console.log(firstName);
@@ -12,4 +14,10 @@ console.log(age);
 
 var fullAge = true;
 
-console.log(fullAge);
+//Job Declaried
+
+var job;
+
+job = 'Teacher';
+
+console.log(job);
