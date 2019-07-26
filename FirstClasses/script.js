@@ -1,4 +1,8 @@
-/* Reviewing Variables */
+/* Reviewing Variables and data Types */
+
+
+/* 
+
 
 var firstName = 'John';
 
@@ -21,3 +25,11 @@ var job;
 job = 'Teacher';
 
 console.log(job);
+
+*/
+
+
+
+
+//Reviewing Variable Mutation and Type Coercion
+
