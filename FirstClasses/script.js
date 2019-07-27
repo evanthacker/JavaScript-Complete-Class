@@ -42,6 +42,8 @@ var $if = 23;
 
 /****Reviewing Variable Mutation and Type Coercion****/
 
+/*
+
 var firstName = 'John';
 var age = 28;
 
@@ -66,3 +68,25 @@ alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + is
 
 var lastName = prompt('What is his last Name?')
 console.log(firstName + ' ' + lastName);
+
+*/
+
+/******* Basic Operators */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
