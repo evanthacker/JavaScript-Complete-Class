@@ -73,6 +73,52 @@ console.log(firstName + ' ' + lastName);
 
 /******* Basic Operators */
 
+/*
+
+var now, yearJohn, yearMark, ageJohn, ageMark;
+
+now = 2019;
+
+
+ageJohn = 27;
+
+ageMark = 30;
+
+yearJohn = now - 27;
+
+yearMark = now - 30;
+
+console.log(yearJohn);
+
+console.log(yearMark);
+
+console.log(now * 2);
+
+// Logical operators
+
+var johnOlder = ageJohn > ageMark;
+console.log(johnOlder);
+
+// typeof operator
+
+console.log(typeof johnOlder);
+
+console.log(typeof ageJohn);
+
+console.log(typeof 'Mark is older than John.');
+
+var x;
+console.log(typeof x);
+
+*/
+
+
+
+
+
+
+
+
 
 
 
