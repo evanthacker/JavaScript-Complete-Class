@@ -112,7 +112,56 @@ console.log(typeof x);
 
 */
 
+/*** Operator precedence */
 
+var now = 2019;
+
+var yearJohn = 1989;
+
+var fullAge = 21;
+
+var isFullAge = now - yearJohn >= fullAge;
+
+var ageJohn = now - yearJohn;
+
+var ageMark = 35;
+
+var average = (ageJohn + ageMark) / 2;
+
+
+console.log("John is over 21? " + isFullAge);
+
+console.log(average);
+
+//Multiple Assignments
+
+var x, y, z;
+
+x = y = (3+5) * 4 - 6;
+
+
+console.log(x);
+
+
+/* More Operators */
+
+/// x = x * 2;
+
+x *= 2;
+
+console.log(x);
+
+/// x = x + 10
+
+x += 10;
+
+console.log(x);
+
+// x += 1;
+
+x++;
+
+console.log(x);
 
 
 
