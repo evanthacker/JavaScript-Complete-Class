@@ -114,6 +114,8 @@ console.log(typeof x);
 
 /*** Operator precedence */
 
+/*
+
 var now = 2019;
 
 var yearJohn = 1989;
@@ -144,6 +146,8 @@ console.log(x);
 
 
 /* More Operators */
+
+/*
 
 /// x = x * 2;
 
