@@ -34,14 +34,20 @@ MarksBmi = MarksMass / (MarksHeight * MarksHeight);
 JohnsBmi = JohnsMass / (JohnsHeight * JohnsHeight);
 
 
-CompareBmi = MarksBmi > JohnsBmi;
+//CompareBmi = MarksBmi > JohnsBmi;
 
 
 console.log("John's BMI Is: " + JohnsBmi);
 
 console.log("Mark's BMI Is: " + MarksBmi);
 
+if(MarksBmi > JohnsBmi) {
+	console.log('Mark\'s BMI is higher than John\'s.')
+	
+} else {
+	console.log('John\'s BMI is higher than Mark\'s.')
+}
 
-console.log('Is Mark\'s BMI higher than John\'s? ' + CompareBmi);
+//console.log('Is Mark\'s BMI higher than John\'s? ' + CompareBmi);
 
 
