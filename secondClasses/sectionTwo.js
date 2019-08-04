@@ -127,7 +127,23 @@ switch(true){
 
 // truthy vales: NOT Falsy 
 
+var height;
 
+height = 23;
+
+if (height || height === 0) {
+	console.log('Variable is defined.');
+} else {
+	console.log('Variable has NOT been defined!');
+}
+
+// Equality operators, Converts numbers and string values to make them equal
+
+if (height == '23'){
+	console.log('The == operator does type coercion!');
+} else {
+	console.log('false');
+}
 
 
 
