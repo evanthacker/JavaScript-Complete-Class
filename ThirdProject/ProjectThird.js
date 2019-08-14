@@ -14,14 +14,14 @@ Note: To calculate 20% of a value, simply multiply if with 20/100 = 0.20)
 
 */
 
+//
 
 var threeBills = [124, 48, 268];
 
 console.log(threeBills);
 
-	
-//var threeFinal = [finalAmountOne, finalAmountTwo, finalAmountThree];
 
+/// Function for Calculating Tips
 
 function tipAmount(bill) {
 	if(bill < 50 ){
@@ -42,16 +42,10 @@ var tipAmounts = [tipAmount(threeBills[0]), tipAmount(threeBills[1]), tipAmount(
 console.log(tipAmounts);
 
 
+
 /// second array "bill + tip"
 
-var finalAmountOne = threeBills[0] + tipAmounts[0];
-
-var finalAmountTwo = threeBills[1] + tipAmounts[1];
-
-var finalAmountThree = threeBills[2] + tipAmounts[2];
-
-
-var threeFinal = [finalAmountOne, finalAmountTwo, finalAmountThree];
+var threeFinal = [threeBills[0] + tipAmounts[0], threeBills[1] + tipAmounts[1], threeBills[2] + tipAmounts[2]] ;
 
 console.log(threeFinal);
 
